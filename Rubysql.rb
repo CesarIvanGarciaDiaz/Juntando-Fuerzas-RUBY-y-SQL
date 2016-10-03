@@ -24,8 +24,10 @@ class Chef
         INSERT INTO chefs
           (first_name, last_name, birthday, email, phone, created_at, updated_at)
         VALUES
-          ('Ferran', 'Adriá', '1985-02-09', 'ferran.adria@elbulli.com', '42381093238', DATETIME('now'), DATETIME('now'));
-        -- Añade aquí más registros
+        ('Ferran', 'Adriá', '1985-02-09', 'ferran.adria@elbulli.com', '42381093238', DATETIME('now'), DATETIME('now')),
+        ('Cesar','Garcia', '1993-05-10', 'pein_iscariote@hotmail.com','55252740471',DATETIME('now'),DATETIME('now')),
+        ('Ivan','Diaz','1994-10-05','inge__garcia@hotmail.com','55252740471',DATETIME('now'),DATETIME('now')),
+        ('Jhonatan','Ramirez','1996-01-04','conejo_en_llamas@hotmail.com','552534856078',DATETIME('now'),DATETIME('now'));
       SQL
     )
   end
